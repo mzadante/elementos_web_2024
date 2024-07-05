@@ -12,13 +12,10 @@ document.addEventListener("DOMContentLoaded", function() {
     document.body.appendChild(p);
   });
 
-
-
-
   /* IMPORTANTE: 
   PARA APRENDER MAS LEER Y APRENDER Rapido:
               Javascript:
-                            preguntarse que es ?
+                            preguntarse que es? y que hace?
   document
   addEventListener
   createElement
