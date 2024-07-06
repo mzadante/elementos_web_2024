@@ -1,0 +1,112 @@
+/* Estilos básicos para el body */
+body {
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    display: flex; /* Uso de flexbox para alinear elementos */
+    justify-content: space-around; /* Espaciado uniforme entre elementos */
+    align-items: center; /* Alineación vertical de los elementos al centro */
+    height: 100vh; /* Altura de la pantalla completa */
+    background-color: #f0f0f0; /* Color de fondo */
+    margin: 0; /* Sin márgenes */
+  }
+
+/* Estilos generales para todos los botones */
+button {
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cursor en forma de mano */
+    font-size: 16px; /* Tamaño de la fuente */
+    transition: all 0.3s ease; /* Transición suave para todos los cambios */
+  }
+
+  /* Estilo para Botón 1 - Botón con sombra y borde redondeado */
+  .btn-1 {
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color del texto */
+    border-radius: 12px; /* Bordes redondeados */
+    box-shadow: 0 4px #999; /* Sombra */
+  }
+  
+  .btn-1:hover {
+    background-color: #45a049; /* Color de fondo al pasar el ratón */
+  }
+  
+  .btn-1:active {
+    background-color: #3e8e41; /* Color de fondo al hacer clic */
+    box-shadow: 0 2px #666; /* Sombra reducida al hacer clic */
+    transform: translateY(2px); /* Desplazamiento hacia abajo al hacer clic */
+  }
+  
+/* Estilo para Botón 2 - Botón con efecto de transformación */
+.btn-2 {
+    background-color: #008CBA; /* Color de fondo */
+    color: white; /* Color del texto */
+    transform: scale(1); /* Escala inicial */
+  }
+  
+  .btn-2:hover {
+    transform: scale(1.1); /* Aumento de escala al pasar el ratón */
+  }
+
+/* Estilo para Botón 3 - Botón con efecto de desplazamiento */
+.btn-3 {
+    background-color: #f44336; /* Color de fondo */
+    color: white; /* Color del texto */
+    position: relative; /* Posicionamiento relativo */
+  }
+  
+  .btn-3::before {
+    content: ""; /* Contenido vacío */
+    position: absolute; /* Posicionamiento absoluto */
+    top: 0; /* Parte superior */
+    left: -100%; /* Fuera de la pantalla a la izquierda */
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Altura completa */
+    background: rgba(255, 255, 255, 0.3); /* Fondo semi-transparente */
+    transition: left 0.3s; /* Transición suave para el movimiento */
+  }
+  
+  .btn-3:hover::before {
+    left: 100%; /* Mover al lado derecho al pasar el ratón */
+  }  
+  
+/* Estilo para Botón 4 - Botón con gradiente */
+.btn-4 {
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradiente de color */
+    color: white; /* Color del texto */
+  }
+  
+  .btn-4:hover {
+    background: linear-gradient(to right, #feb47b, #ff7e5f); /* Inversión del gradiente al pasar el ratón */
+  }
+  
+  /* Estilo para Botón 5 - Botón con borde animado */
+  .btn-5 {
+    background-color: #555555; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: 2px solid #555555; /* Borde del mismo color que el fondo */
+    position: relative; /* Posicionamiento relativo */
+    overflow: hidden; /* Ocultar desbordamiento */
+  }
+  
+  .btn-5::before {
+    content: ""; /* Contenido vacío */
+    position: absolute; /* Posicionamiento absoluto */
+    top: 0; /* Parte superior */
+    left: 0; /* Izquierda */
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Altura completa */
+    background-color: white; /* Fondo blanco */
+    z-index: 1; /* Capa superior */
+    transition: transform 0.3s ease; /* Transición suave para la transformación */
+    transform: translateX(-100%); /* Iniciar fuera de la pantalla a la izquierda */
+  }
+  
+  .btn-5:hover::before {
+    transform: translateX(0); /* Mover al centro al pasar el ratón */
+  }
+  
+  .btn-5 span {
+    position: relative; /* Posicionamiento relativo */
+    z-index: 2; /* Capa superior para el texto */
+  }
+  
