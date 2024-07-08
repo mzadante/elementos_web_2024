@@ -1,8 +1,6 @@
 # Elementos Web 2024
 **"Creando Elementos Web Dinámicos y Estáticos HTML - CSS - JavaScript: Tutoriales Paso a Paso 2024 para Futuros Desarrolladores"**
 
-![Nico Code](https://www.youtube.com/@NicoCode-qt9ur)
-
 ## Descripción
 
 Este tutorial, disponible en mi canal de YouTube: [Nico Code](https://www.youtube.com/@NicoCode-qt9ur), está diseñado para ayudar a los desarrolladores web principiantes a aprender a crear componentes web básicos y esenciales utilizando HTML, CSS y JavaScript. Cada video de la serie se enfoca en un elemento específico, proporcionando una guía paso a paso sobre cómo construir y estilizar estos componentes, tanto de manera estática como dinámica.
