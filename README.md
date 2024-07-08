@@ -33,6 +33,7 @@ Este tutorial, disponible en mi canal de YouTube: [Nico Code](https://www.youtub
 
 - [Repositorio del Proyecto](https://github.com/mzadante/elementos_web_2024)
 - [Canal de YouTube](https://www.youtube.com/@NicoCode-qt9ur)
+- [Portafolio Web personal](https://portfolio-dante-martinez.netlify.app/)
 
 ---
 
