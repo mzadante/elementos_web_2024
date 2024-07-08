@@ -3,4 +3,4 @@
 
 01-Conceptos Básicos para Principiantes 2024 - Html-Css-Js
 02-Creando Elementos Web dinámicos y estáticos HTML - CSS - JavaScript: Botones
-03-Creando elementos web dinámicos y estaticos HTML - Css - Javascript: NavBar
+03-Creando elementos web dinámicos y estaticos HTML - Css - Javascript: NavBar Parte 1 y 2

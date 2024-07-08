@@ -1,0 +1,56 @@
+/* Estilo de la navbar */
+
+/* Establece el color de fondo del cuerpo del documento a negro */
+body {
+    background-color: black;
+}
+/* Estilo para el contenedor de la barra de navegación */
+.navbar {
+    /* Color de fondo rojo oscuro para la navbar */
+    background-color: #d61010;
+    /* Asegura que el contenido dentro de la navbar no se desborde */
+    overflow: hidden;
+}
+
+/* Estilo para las imágenes dentro de la navbar */
+.navbar img {
+    /* Coloca la imagen a la izquierda */
+    float: left;
+    /* Agrega un margen alrededor de la imagen */
+    margin: .2rem;
+    /* Establece el ancho de la imagen */
+    width: 2.5rem;
+}
+
+/* Estilo para los elementos de la lista dentro de la navbar */
+.navbar ul li {
+    /* Coloca los elementos de la lista a la derecha */
+    float: right;  
+    /*eliminando los puntos de la lista*/
+    list-style: none;
+}
+
+/* Estilo para los enlaces dentro de los elementos de la lista */
+.navbar ul li a {
+    /* Hace que el enlace ocupe todo el bloque del elemento de la lista */
+    display: block;
+    /* Establece el color del texto del enlace a blanco */
+    color: white;
+    /* Centra el texto dentro del enlace */
+    text-align: center;
+    /* Agrega padding alrededor del texto del enlace */
+    padding: 14px 20px;
+    /* Elimina el subrayado del texto del enlace */
+    text-decoration: none;
+    
+}
+
+/* Estilo para el efecto hover (al pasar el cursor) en los enlaces */
+.navbar ul li a:hover {
+    /* Cambia el color de fondo a un gris claro cuando se pasa el cursor sobre el enlace */
+    background-color: #ddd;
+    /* Cambia el color del texto a negro cuando se pasa el cursor sobre el enlace */
+    color: black;
+}
+
+
