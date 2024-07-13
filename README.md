@@ -7,17 +7,17 @@ Este tutorial, disponible en mi canal de YouTube: [Nico Code](https://www.youtub
 
 ## Contenido de la Serie
 
-1. **[Conceptos Básicos para Principiantes 2024 - HTML, CSS, JS](https://www.youtube.com/watch?v=link1)**
+1. **[Conceptos Básicos para Principiantes 2024 - HTML, CSS, JS](https://www.youtube.com/watch?v=pPI4F2XM9K0)**
     - Introducción a HTML y CSS
     - Estructura básica de un documento HTML
     - Aplicación de estilos CSS a elementos HTML
 
-2. **[Creando Elementos Web Dinámicos y Estáticos - Botones](https://www.youtube.com/watch?v=link2)**
+2. **[Creando Elementos Web Dinámicos y Estáticos - Botones](https://www.youtube.com/watch?v=QKnStFE2jPU&t=7s)**
     - Diseño de botones con HTML y CSS
     - Estilos variados para botones
     - Generación de botones dinámicamente con JavaScript
 
-3. **[Creando Elementos Web Dinámicos y Estáticos - NavBar Parte 1 y 2](https://www.youtube.com/watch?v=link3)**
+3. **[Creando Elementos Web Dinámicos y Estáticos - NavBar Parte 1 y 2](https://www.youtube.com/watch?v=q-WfxeM3j1w)**
     - Construcción de una barra de navegación estática
     - Estilización y diseño responsivo con CSS
     - Creación de una barra de navegación dinámica con JavaScript
