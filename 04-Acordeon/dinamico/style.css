@@ -1,0 +1,30 @@
+.accordion {
+    width: 80%; /* El ancho del contenedor es el 80% del ancho del contenedor padre */
+    margin: 20px auto; /* Margen de 20 píxeles arriba y abajo, centrado horizontalmente */
+    border: 1px solid #ccc; /* Borde de 1 píxel de grosor con color gris claro */
+    border-radius: 5px; /* Bordes redondeados de 5 píxeles */
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ccc; /* Línea de separación gris claro en la parte inferior de cada ítem */
+}
+
+.accordion-button {
+    width: 100%; /* El ancho del botón es del 100% del contenedor padre */
+    padding: 10px; /* Relleno de 10 píxeles alrededor del contenido del botón */
+    text-align: left; /* Alinea el texto del botón a la izquierda */
+    background-color: #f1f1f1; /* Color de fondo gris claro para el botón */
+    border: none; /* Elimina cualquier borde del botón */
+    outline: none; /* Elimina el contorno que aparece cuando el botón está enfocado */
+    cursor: pointer; /* Cambia el cursor a una mano cuando se pasa sobre el botón */
+}
+
+.accordion-content {
+    padding: 10px; /* Relleno de 10 píxeles alrededor del contenido */
+    display: none; /* Oculta el contenido por defecto */
+    background-color: #fff; /* Color de fondo blanco para el contenido */
+}
+
+.accordion-button.active + .accordion-content {
+    display: block; /* Muestra el contenido cuando el botón correspondiente está activo */
+}

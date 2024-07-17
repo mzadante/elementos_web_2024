@@ -1,0 +1,52 @@
+/* Estilo para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para el contenedor del acordeón */
+.accordion {
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para cada item del acordeón */
+.accordion-item {
+    border-top: 1px solid #ccc;
+}
+
+/* El primer item del acordeón no tiene borde superior */
+.accordion-item:first-child {
+    border-top: none;
+}
+
+/* Estilo para el botón del acordeón */
+.accordion-button {
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+    background: #f1f1f1;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+/* Cambia el color de fondo del botón al pasar el mouse */
+.accordion-button:hover {
+    background: #e1e1e1;
+}
+
+/* Estilo para el contenido del acordeón */
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+/* Estilo para el contenido visible cuando el botón está enfocado */
+.accordion-button:focus + .accordion-content,
+.accordion-content:hover {
+    max-height: 100px;
+}

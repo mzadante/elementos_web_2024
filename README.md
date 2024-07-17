@@ -22,6 +22,12 @@ Este tutorial, disponible en mi canal de YouTube: [Nico Code](https://www.youtub
     - Estilización y diseño responsivo con CSS
     - Creación de una barra de navegación dinámica con JavaScript
 
+4. **[Creando Elementos Web Dinámicos y Estáticos - Acordeón](https:)**
+    - Construcción de un Acordeón o "Expand and collapse", en inglés estático y dinámico.
+    - Estilización y diseño con CSS.
+    - Acordeón: Funciona presentando la información al hacer clic, expandiendo o contrayendo el bloque de texto según se requiera.
+
+
 ## Objetivos del Tutorial
 
 - Proporcionar conocimientos fundamentales de desarrollo web
