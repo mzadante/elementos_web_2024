@@ -20,11 +20,10 @@ Este tutorial, disponible en mi canal de YouTube: [Nico Code](https://www.youtub
 3. **[Creando Elementos Web Dinámicos y Estáticos - NavBar Parte 1](https://www.youtube.com/watch?v=q-WfxeM3j1w)**
     - Construcción de una barra de navegación estática
     - Estilización y diseño responsivo con CSS
-    - Creación de una barra de navegación dinámica con JavaScript
 
 4. **[Creando Elementos Web Dinámicos y Estáticos - NavBar Parte 2](https://www.youtube.com/watch?v=f_t-EFMfsfE)**
-    - Construcción de una barra de navegación estática
-    - Estilización y diseño responsivo con CSS
+    - Construcción de una barra de navegación dinámica
+    - Estilización y diseño responsivo con CSS 
     - Creación de una barra de navegación dinámica con JavaScript
 
 5. **[Creando Elementos Web Dinámicos y Estáticos - Acordeón](https://www.youtube.com/watch?v=xMjfp4eor8Y)**
