@@ -17,15 +17,25 @@ Este tutorial, disponible en mi canal de YouTube: [Nico Code](https://www.youtub
     - Estilos variados para botones
     - Generación de botones dinámicamente con JavaScript
 
-3. **[Creando Elementos Web Dinámicos y Estáticos - NavBar Parte 1 y 2](https://www.youtube.com/watch?v=q-WfxeM3j1w)**
+3. **[Creando Elementos Web Dinámicos y Estáticos - NavBar Parte 1](https://www.youtube.com/watch?v=q-WfxeM3j1w)**
     - Construcción de una barra de navegación estática
     - Estilización y diseño responsivo con CSS
     - Creación de una barra de navegación dinámica con JavaScript
 
-4. **[Creando Elementos Web Dinámicos y Estáticos - Acordeón](https://www.youtube.com/watch?v=xMjfp4eor8Y&t=28s)**
+4. **[Creando Elementos Web Dinámicos y Estáticos - NavBar Parte 2](https://www.youtube.com/watch?v=f_t-EFMfsfE)**
+    - Construcción de una barra de navegación estática
+    - Estilización y diseño responsivo con CSS
+    - Creación de una barra de navegación dinámica con JavaScript
+
+5. **[Creando Elementos Web Dinámicos y Estáticos - Acordeón](https://www.youtube.com/watch?v=xMjfp4eor8Y)**
     - Construcción de un Acordeón o "Expand and collapse", en inglés estático y dinámico.
     - Estilización y diseño con CSS.
     - Acordeón: Funciona presentando la información al hacer clic, expandiendo o contrayendo el bloque de texto según se requiera.
+
+6. **[Creando Elementos Web Dinámicos y Estáticos - Efecto Parallax](https:)**
+    - Construcción del efecto Parallax, estático y dinámico con el uso de HTML-CSS y JAVASCRIPT.
+    - Estilización y diseño con CSS.
+    - Efecto Parallax:se utiliza para crear una experiencia visualmente atractiva y dinámica en la web, mejorando la narrativa, destacando contenido importante y diferenciando el sitio de la competencia. Sin embargo, es importante usarlo con moderación y cuidado para no comprometer el rendimiento y la accesibilidad.
 
 ## Objetivos del Tutorial
 
