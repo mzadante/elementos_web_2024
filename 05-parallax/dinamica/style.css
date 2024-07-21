@@ -1,0 +1,46 @@
+/* Aplico estilos al body y html */
+body, html {
+    height: 100%; 
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+}
+
+/* Clase general para las secciones con efecto parallax */
+.parallax {
+    height: 100vh; /* Establece la altura de la sección al 100% de la altura de la ventana */
+    background-position: center; /* Centra la imagen de fondo */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-size: cover; /* Asegura que la imagen de fondo cubra toda la sección */
+}
+
+/* Selecciona las secciónes parallax y le asigna una imagen de fondo específica */
+.parallax:nth-child(1) {
+    background-image: url('/05-parallax/dinamica/Asset/imagen-1.jpg'); 
+}
+
+.parallax:nth-child(3) {
+    background-image: url('/05-parallax/dinamica/Asset/imagen-2.jpg'); 
+}
+
+.parallax:nth-child(5) {
+    background-image: url('/05-parallax/dinamica/Asset/imagen-3.jpg'); 
+}
+
+/* Clase para las secciones de contenido entre las secciones parallax */
+.content {
+    height: 100vh; /* Establece la altura de la sección al 100% de la altura de la ventana */
+    display: flex; /* Usa flexbox para centrar el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    background-color: #fff; /* Establece un fondo blanco para el contenido */
+    color: #000; /* Establece el color del texto a negro */
+    font-size: 24px; /* Establece el tamaño de la fuente a 24px */
+    padding: 20px; /* Agrega un padding de 20px alrededor del contenido */
+}
+
+/* Media query para hacer el diseño responsivo en pantallas*/
+@media (max-width: 768px) {
+    .parallax, .content {
+        height: 50vh; 
+    }
+}

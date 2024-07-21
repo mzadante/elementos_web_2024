@@ -1,0 +1,52 @@
+/* Altura de body y html al 100% de la altura de la ventana y elimino los márgenes */
+body, html {
+    height: 100%; /* Asegura que el body y el html ocupen toda la altura de la ventana */
+    margin: 0; /* Elimino los márgenes por defecto */
+    font-family: Arial, sans-serif; /* Establece la fuente por defecto para todo el documento */
+}
+
+
+.parallax {
+    height: 100vh; /* Establece la altura de la sección al 100% de la altura de la ventana */
+    background-attachment: fixed; /* Fija la imagen de fondo para crear el efecto parallax */
+    background-position: center; /* Centra la imagen de fondo */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-size: cover; /* Asegura que la imagen de fondo cubra toda la sección */
+}
+
+
+.parallax1 {
+    /*Cargando imagen desde css, utilizando el atributo url*/
+    background-image: url('/05-parallax/estatica/Asset/imagen-1.jpg'); 
+}
+
+
+.parallax2 {
+    background-image: url('/05-parallax/estatica/Asset/imagen-2.jpg'); 
+}
+
+/* Clase específica para la tercera sección parallax */
+.parallax3 {
+    background-image: url('/05-parallax/estatica/Asset/imagen-3.jpg'); 
+}
+
+
+.content {
+    height: 100vh; /* Establece la altura del contenido al 100% de la altura de la ventana */
+    display: flex; /* Usa flexbox para centrar el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    background-color: #fff; /* Establece un fondo blanco para el contenido */
+    color: #000; /* Establece el color del texto a negro */
+    font-size: 24px; /* Establece el tamaño de la fuente */
+    padding: 20px; /* Agrega un padding alrededor del contenido */
+}
+
+/* Media query para hacer el diseño responsivo en pantallas pequeñas */
+@media (max-width: 768px) {
+    .parallax, .content {
+        /* Reduce la altura de las secciones parallax y del contenido a la mitad de
+         la altura de la ventana en pantallas pequeñas */
+        height: 50vh; 
+    }
+}
