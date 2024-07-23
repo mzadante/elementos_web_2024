@@ -31,7 +31,7 @@ Este tutorial, disponible en mi canal de YouTube: [Nico Code](https://www.youtub
     - Estilización y diseño con CSS.
     - Acordeón: Funciona presentando la información al hacer clic, expandiendo o contrayendo el bloque de texto según se requiera.
 
-6. **[Creando Elementos Web Dinámicos y Estáticos - Efecto Parallax](https:)**
+6. **[Creando Elementos Web Dinámicos y Estáticos - Efecto Parallax](https://www.youtube.com/watch?v=CL05s30HKgQ)**
     - Construcción del efecto Parallax, estático y dinámico con el uso de HTML-CSS y JAVASCRIPT.
     - Estilización y diseño con CSS.
     - Efecto Parallax:se utiliza para crear una experiencia visualmente atractiva y dinámica en la web, mejorando la narrativa, destacando contenido importante y diferenciando el sitio de la competencia. Sin embargo, es importante usarlo con moderación y cuidado para no comprometer el rendimiento y la accesibilidad.
