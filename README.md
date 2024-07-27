@@ -36,6 +36,10 @@ Este tutorial, disponible en mi canal de YouTube: [Nico Code](https://www.youtub
     - Estilización y diseño con CSS.
     - Efecto Parallax:se utiliza para crear una experiencia visualmente atractiva y dinámica en la web, mejorando la narrativa, destacando contenido importante y diferenciando el sitio de la competencia. Sin embargo, es importante usarlo con moderación y cuidado para no comprometer el rendimiento y la accesibilidad.
 
+7. **[Creando Elementos Web Dinámicos y Estáticos - Card básica]()**
+    - Construcción de la esctructura Card, estático y dinámico con el uso de HTML-CSS y JAVASCRIPT.
+    - Las cards son componentes muy utilizados en el desarrollo web. Pueden mostrar información de manera organizada y visualmente atractiva. Se usan en portafolios, para mostrar productos, artículos de blogs, galerías de imágenes, testimonios, y más.
+
 ## Objetivos del Tutorial
 
 - Proporcionar conocimientos fundamentales de desarrollo web
